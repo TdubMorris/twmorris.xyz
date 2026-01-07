@@ -1,7 +1,7 @@
 import { ProjectCard } from "../ProjectCard";
 
 export const Projects = () => {
-
+    
   return (<section id="projects" className="min-h-screen p-16">
     <h1 className="text-5xl font-bold bg-linear-to-t /hsl from-orange-500 to-yellow-300 bg-clip-text text-transparent p-10 text-left w-96">
       My Projects
@@ -47,6 +47,8 @@ export const Projects = () => {
       title="Random Side Projects"
       img="/src/assets/images/domaincolor.png"
       tags="Java, Version Control, Debugging"
+      link="/random"
+      linkText="Suprise me!"
       >
         I have a lot of random side projects including demonstrations in the online graphing calculator known as Desmos, and various fragment shaders made using GLSL on Shadertoy.
         Most of these were made in just a couple hours and visualize various things I learned that I thought were interesting.
