@@ -10,7 +10,7 @@
 export const ProjectCard = (props) => {
   
   const tags = props.tags.split(", ").map(text =>
-  <div className="bg-blue-950 text-blue-600 rounded-full px-3">{text}</div>
+  <div className="bg-blue-950 text-blue-600 rounded-full px-3 text-nowrap">{text}</div>
   )
 
   return (<div className="relative bg-black rounded-2xl lg:h-72 border-gray-600 border-2 border-dashed overflow-hidden flex flex-col lg:flex-row">

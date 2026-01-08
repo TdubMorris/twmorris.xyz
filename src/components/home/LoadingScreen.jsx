@@ -41,7 +41,7 @@ export const LoadingScreen = ({ onComplete }) => {
 
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#060613] text-gray-100 flex flex-col items-left justify-end p-32">
+    <div className="fixed inset-0 z-50 bg-[#060613] text-gray-100 flex flex-col items-left justify-end p-[10%]">
       <div className="mb-4 text-4xl font-mono font-bold">
         {text}<span className="animate-blink">|</span>
       </div>
