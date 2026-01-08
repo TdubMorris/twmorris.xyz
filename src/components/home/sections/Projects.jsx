@@ -37,6 +37,8 @@ export const Projects = () => {
       title="Data Structures and Algorithms"
       img=""
       tags="Java, Version Control, Debugging"
+      link="https://github.com/TdubMorris/cs351-coursework"
+      linkText="Completed Coursework"
       >
         In fall of 2025 I finished my data structures and algorithms class at UWM where I programmed various data structures to pass tests and do tasks.
         Completed data structures includes dynamic arrays, linked lists, binary search trees, hash maps, graphs, and linked lists. 
