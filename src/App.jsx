@@ -10,7 +10,7 @@ function App() {
   return (
       <Routes>
         <Route path="/" element={<HomePage/>} />
-         <Route path="random" element={<RandomProject/>}/>
+         <Route path="/random" element={<RandomProject/>}/>
         <Route path="*" element={<NotFound/>} />
       </Routes>
   )

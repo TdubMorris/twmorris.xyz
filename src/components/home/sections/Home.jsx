@@ -1,3 +1,6 @@
+import me_jpg from "/src/assets/images/me.jpg"
+import resume from "/src/assets/resume.pdf"
+import github from "/src/assets/images/github-mark-white.svg"
 
 export const Home = () => {
   return (
@@ -14,16 +17,16 @@ export const Home = () => {
           <div className="flex flex-row space-x-10">
               <a className="flex flex-row text-center items-center space-x-3 hover:text-yellow-400 transition-colors" href="https://github.com/TdubMorris" target="_blank">
               <p>Github</p>
-                <img src="/src/assets/images/github-mark-white.svg" className="size-8"/>
+                <img src={github} className="size-8"/>
               </a>
-            <a download="Toby-Resume" href="./src/assets/resume.pdf">
+            <a download="Toby-Resume" href={resume}>
               <button className="bg-transparent px-5 py-1.5 text-center border-amber-50 border-2 rounded-full cursor-pointer hover:border-amber-400 hover:text-amber-200 transition-colors">
                 <i className="fa fa-download"/>&nbsp;&nbsp;&nbsp;Resume
               </button>
             </a>
           </div>
         </div>
-        <img src="./src/assets/images/me.jpg" className="max-w-sm rounded-2xl lg:max-w-lg"/>
+        <img src={me_jpg} className="max-w-sm rounded-2xl lg:max-w-lg"/>
       </div>
     </section>
   )

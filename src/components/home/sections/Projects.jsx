@@ -1,4 +1,7 @@
 import { ProjectCard } from "../ProjectCard";
+import countaclysm from "/src/assets/images/countaclysm.png"
+import spacesage from "/src/assets/images/spacesage.png"
+import domaincolor from "/src/assets/images/domaincolor.png"
 
 export const Projects = () => {
     
@@ -11,7 +14,7 @@ export const Projects = () => {
 
       <ProjectCard 
       title="Space Sage" 
-      img="/src/assets/images/spacesage.png" 
+      img={spacesage}
       tags="Game Design, Version Control, Godot, Art"
       link="https://github.com/TdubMorris/Space-Sage"
       linkText="Take me there!"
@@ -24,7 +27,7 @@ export const Projects = () => {
 
       <ProjectCard
       title="Countaclysm"
-      img="/src/assets/images/countaclysm.png"
+      img={countaclysm}
       tags="Game Design, Cersion Control, Godot, Collaboration"
       link="https://tdubmorris.itch.io/countaclysm"
       linkText="Take me there!"
@@ -47,9 +50,9 @@ export const Projects = () => {
 
       <ProjectCard
       title="Random Side Projects"
-      img="/src/assets/images/domaincolor.png"
+      img={domaincolor}
       tags="Java, Version Control, Debugging"
-      link="/random"
+      link="#/random"
       linkText="Suprise me!"
       >
         I have a lot of random side projects including demonstrations in the online graphing calculator known as Desmos, and various fragment shaders made using GLSL on Shadertoy.

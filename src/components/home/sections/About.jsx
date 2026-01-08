@@ -1,5 +1,6 @@
-export const About = () => {
+import stem from "/src/assets/images/stem.jpg"
 
+export const About = () => {
 
   return (<section id="about" className="min-h-128 flex justify-center items-center py-32 bg-black">
     
@@ -14,7 +15,7 @@ export const About = () => {
       </p>
       </div>
       <div>
-        <img src="/src/assets/images/stem.jpg" className="w-lg rounded-3xl"/>
+        <img src={stem} className="w-lg rounded-3xl"/>
         <span className="text-gray-500">Golda Mier STEM club, 2023</span>
       </div>
     </div>

@@ -1,4 +1,7 @@
 import { useEffect } from "react"
+import resume from "/src/assets/resume.pdf"
+import github from "/src/assets/images/github-mark-white.svg"
+import logo from "/src/assets/images/logo.png"
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
 
@@ -12,7 +15,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
       <div className="max-w-[80%] mx-auto px-4 my-2">
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="flex items-center px-8">
-            <img src="./src/assets/images/logo.png" className="h-12"/>
+            <img src={logo} className="h-12"/>
             <div className="px-4 font-bold text-2xl">
               twmorris<span className="text-amber-300">.xyz</span>
             </div>
@@ -22,19 +25,19 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
           </div>
 
           <div className="hidden lg:flex items-center space-x-8">
-            <a href="#home" className="text-white hover:text-amber-300 transition-colors">
+            <button onClick={() => document.getElementById('home')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors">
               Home
-            </a>
-            <a href="#about" className="text-white hover:text-amber-300 transition-colors">
+            </button>
+            <button onClick={() => document.getElementById('about')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors">
               About
-            </a>
-            <a href="#projects" className="text-white hover:text-amber-300 transition-colors">
+            </button>
+            <button onClick={() => document.getElementById('projects')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors">
               Projects
-            </a>
+            </button>
             <a href="https://github.com/TdubMorris" target="_blank">
-              <img src="/src/assets/images/github-mark-white.svg" className="size-8"/>
+              <img src={github} className="size-8"/>
             </a>
-            <a download="Toby-Resume" href="./src/assets/resume.pdf">
+            <a download="Toby-Resume" href={resume}>
               <button className="bg-transparent px-5 py-1.5 text-center border-amber-50 border-2 rounded-full cursor-pointer hover:border-amber-400 hover:text-amber-200 transition-colors">
                 <i className="fa fa-download"/>&nbsp;&nbsp;&nbsp;Resume
               </button>
