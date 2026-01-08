@@ -19,7 +19,7 @@ export const ProjectCard = (props) => {
         <h1 className="text-amber-500 text-2xl font-bold mb-2">{props.title}</h1>
         <p className="text-gray-500">{props.children}</p>
       </div>
-      <div className="w-full flex flex-col md:flex-row space-y-3 items-start justify-between">
+      <div className="w-full flex flex-col md:flex-row space-y-3 items-start lg:items-end justify-between">
         <div className="flex flex-wrap-reverse gap-2">
           {tags}
         </div>
