@@ -1,3 +1,5 @@
+import github from "/src/assets/images/github-mark-white.svg"
+
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
   return (
       <div className=
@@ -24,7 +26,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
           </button>
         </a>
         <a href="https://github.com/TdubMorris" target="_blank">
-          <img src="/src/assets/images/github-mark-white.svg" className="size-8"/>
+          <img src={github} className="size-8"/>
         </a>
         </div>
   )

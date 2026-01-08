@@ -16,7 +16,7 @@ export const About = () => {
       </div>
       <div>
         <img src={stem} className="w-lg rounded-3xl"/>
-        <span className="text-gray-500">Golda Mier STEM club, 2023</span>
+        <span className="text-gray-500">Golda Meir STEM club, 2023</span>
       </div>
     </div>
 
