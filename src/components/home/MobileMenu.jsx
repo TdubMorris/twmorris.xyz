@@ -1,4 +1,5 @@
 import github from "/src/assets/images/github-mark-white.svg"
+import resume from "/src/assets/resume.pdf"
 
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
   return (
@@ -20,7 +21,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
         <button onClick={() => {document.getElementById('projects')?.scrollIntoView(); setMenuOpen(false)}} className={`text-2xl text-white my-4 transform transition-transform duration-300 hover:text-amber-200 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
           Projects
         </button>
-        <a download="Toby-Resume" href="./src/assets/resume.pdf">
+        <a download="Toby-Resume" href={resume}>
           <button className="bg-transparent px-5 py-1.5 my-10 text-center border-amber-50 border-2 rounded-full cursor-pointer hover:border-amber-400 hover:text-amber-200 transition-colors">
             <i className="fa fa-download"/>&nbsp;&nbsp;&nbsp;Resume
           </button>
