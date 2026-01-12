@@ -5,7 +5,7 @@ import domaincolor from "/src/assets/images/domaincolor.png"
 
 export const Projects = () => {
     
-  return (<section id="projects" className="min-h-screen p-[5%]">
+  return (<div id="projects" className="min-h-screen p-[5%]">
     <h1 className="text-5xl font-bold bg-linear-to-t /hsl from-orange-500 to-yellow-300 bg-clip-text text-transparent p-10 text-left w-full">
       My Projects
     </h1>
@@ -62,5 +62,5 @@ export const Projects = () => {
 
     </div>
 
-  </section>)
+  </div>)
 }

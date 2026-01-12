@@ -10,8 +10,8 @@ export const About = () => {
             About Me
         </h1>
         <p className="text-gray-500 max-w-lg">
-          I'm a computer science enthusiast with interests in game and web development.
-          I also enjoy math and science, and love working with data. Learning and improving is my top priority during all my projects.
+          I'm a computer science enthusiast with interests in web development and data engineering, and experience in game design.
+          I also enjoy math and science and plan to graduate with a math minor. Learning and improving is my top priority during all my projects.
         </p>
         </div>
       <div>
@@ -19,6 +19,5 @@ export const About = () => {
         <span className="text-gray-500">Golda Meir STEM club, 2023</span>
       </div>
     </div>
-
   </div>)
 }

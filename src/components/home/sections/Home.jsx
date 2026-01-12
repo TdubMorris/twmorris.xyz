@@ -4,7 +4,7 @@ import github from "/src/assets/images/github-mark-white.svg"
 
 export const Home = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center flex-col relative">
+    <div id="home" className="min-h-screen flex items-center justify-center flex-col relative">
       <div className="z-10 flex flex-col md:flex-row justify-between items-center space-y-12 md:space-x-14 m-12">
         <div className="text-left px-4 py-8">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 bg-linear-to-t/hsl from-orange-500 to-yellow-300 bg-clip-text text-transparent py-2">
@@ -28,6 +28,6 @@ export const Home = () => {
         </div>
         <img src={me_jpg} className="max-w-[75%] md:max-w-sm lg:max-w-lg rounded-2xl object-cover"/>
       </div>
-    </section>
+    </div>
   )
 }
