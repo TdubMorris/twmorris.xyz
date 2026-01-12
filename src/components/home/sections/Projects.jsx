@@ -6,8 +6,8 @@ import domaincolor from "/src/assets/images/domaincolor.png"
 export const Projects = () => {
     
   return (<div id="projects" className="min-h-screen p-[5%]">
-    <h1 className="text-5xl font-bold bg-linear-to-t /hsl from-orange-500 to-yellow-300 bg-clip-text text-transparent p-10 text-left w-full">
-      My Projects
+    <h1 className="text-5xl font-bold bg-linear-to-t/hsl from-orange-500 to-yellow-300 bg-clip-text text-transparent p-10 text-left w-full">
+      Project Experience
     </h1>
 
     <div className="grid grid-cols-1 2xl:grid-cols-2 gap-8">
@@ -51,7 +51,7 @@ export const Projects = () => {
       <ProjectCard
       title="Random Side Projects"
       img={domaincolor}
-      tags="Java, Version Control, Debugging"
+      tags="Math, Debugging, Visuals, GLSL"
       link="#/random"
       linkText="Suprise me!"
       >

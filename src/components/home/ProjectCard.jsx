@@ -13,7 +13,7 @@ export const ProjectCard = (props) => {
   <div className="bg-blue-950 text-blue-600 rounded-full px-3 text-nowrap">{text}</div>
   )
 
-  return (<div className="relative bg-black rounded-2xl lg:h-72 border-gray-600 border-2 border-dashed overflow-hidden flex flex-col lg:flex-row">
+  return (<div className="relative bg-black rounded-2xl lg:h-72 border-gray-600 border-dashed border-2 overflow-hidden flex flex-col lg:flex-row">
     <div className="flex flex-col justify-between p-4">
       <div className="mb-4">
         <h1 className="text-amber-500 text-2xl font-bold mb-2">{props.title}</h1>
