@@ -52,7 +52,7 @@ export const Projects = () => {
       title="Random Side Projects"
       img={domaincolor}
       tags="Math, Debugging, Visuals, GLSL"
-      link="#/random"
+      link="/random"
       linkText="Suprise me!"
       >
         I have a lot of random side projects including demonstrations in the online graphing calculator known as Desmos, and various fragment shaders made using GLSL on Shadertoy.
