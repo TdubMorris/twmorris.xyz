@@ -25,13 +25,13 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
           </div>
 
           <div className="hidden lg:flex items-center space-x-8">
-            <button onClick={() => document.getElementById('home')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors">
+            <button onClick={() => document.getElementById('home')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors cursor-pointer">
               Home
             </button>
-            <button onClick={() => document.getElementById('about')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors">
+            <button onClick={() => document.getElementById('about')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors cursor-pointer">
               About
             </button>
-            <button onClick={() => document.getElementById('projects')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors">
+            <button onClick={() => document.getElementById('projects')?.scrollIntoView()} className="text-white hover:text-amber-300 transition-colors cursor-pointer">
               Projects
             </button>
             <a href="https://github.com/TdubMorris" target="_blank">
