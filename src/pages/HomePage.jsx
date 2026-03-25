@@ -15,8 +15,6 @@ export const HomePage = () => {
 
   return (
   <>
-    {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
-
     <Background style=""/>
       
     <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

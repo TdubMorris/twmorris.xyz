@@ -1,3 +1,5 @@
+/* Not used because its cool but doesnt look professional lol */
+
 import { useEffect, useState } from "react";
 
 const loadingTexts = [
