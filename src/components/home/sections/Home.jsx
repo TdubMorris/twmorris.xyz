@@ -11,7 +11,7 @@ export const Home = () => {
             Hello, I'm Toby!
           </h1>
           <p className="text-gray-500 text-lg mb-8 max-w-lg mx-auto">
-            I'm a sophmore at the University of Wisconsin-Milwaukee. I have a strong passion to create and learn, and a desire to help others.
+            I'm a junior at the University of Wisconsin-Milwaukee. I have a strong passion to create and learn, and a desire to help others.
             My goal is to make great apps and programs for everyone to use and enjoy.
           </p>
           <div className="flex flex-row space-x-10">

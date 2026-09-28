@@ -37,13 +37,13 @@ export const Projects = () => {
       </ProjectCard>
 
       <ProjectCard
-      title="Data Structures and Algorithms"
+      title="Data Structures and Algorithms Coursework"
       img=""
       tags="Java, Version Control, Debugging"
       link="https://github.com/TdubMorris/cs351-coursework"
       linkText="Completed Coursework"
       >
-        In fall of 2025 I finished my data structures and algorithms class at UWM where I programmed various data structures to pass tests and do tasks.
+        In fall of 2025 I finished my data structures and algorithms class at UWM where I programmed various data structures to pass tests and do variouse tasks.
         Completed data structures includes dynamic arrays, linked lists, binary search trees, hash maps, graphs, and linked lists. 
         Sorting algorithms were also a big focus of the class and includes insertion sort, selection sort, merge sort, quick sort, and heap sort.
       </ProjectCard>
